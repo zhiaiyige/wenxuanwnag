@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+     
+      <table id="name_table">
+            <tr>
+                  <th>name</th>
+                  <th>age</th>
+                  <th>gender</th>
+                  <th>option</th>
+            </tr>
+      </table>
+      <script>
+            var arr = [
+                  {
+                        name: 'Jack',
+                        age: 18,
+                        gender: '男'
+                  }, 
+                  {
+                        name: 'Rose',
+                        age: 20,
+                        gender: '女'
+                  }, 
+                  {
+                        name: 'Top',
+                        age: 22,
+                        gender: '男'
+                  }
+            ]
+            // 把数组对象拼接成符合规则的tr td 字符串; 
+            var html = arr.map( function( item ){
+                  var html = "<tr>"+
+                                    "<td>" + item.name + "</td>"+
+                                    "<td>" + item.age + "</td>"+
+                                    "<td>" + item.gender + "</td>"+
+                                    "<td><button>删除</button></td>"+
+                              "</tr>";
+                  return html
+            }).join("");
+            // 把字符串合理的放在 table表格之中; 
+
+            // DOM操作 : 
+            // 1. 获取元素; 
+            var table = document.getElementById("name_table");
+            // 直接赋值会替换内部的所有内容; 
+            table.innerHTML = html;
+            // 加等会保留之前的结构内容; 
+         
+      </script>
+</body>
+</html>
