@@ -1,8 +1,135 @@
-body {
-  background-color: white;
-  color: black;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
-span {
-  height: 200px;
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.temp-active {
+  height: 90px;
+  min-width: 1210px;
+  overflow: hidden;
+  background-image: url(../images/2000-60.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 90px;
+  width: 100%;
+}
+.temp-active img {
+  position: absolute;
+  left: 50%;
+  top: 6px;
+  margin-left: 567px;
+  width: 22px;
+  cursor: pointer;
+}
+
+.top-wrap {
+  height: 36px;
+  background: #f7f7f7;
+  border-bottom: 1px solid #e8e8e8;
+}
+.top-wrap .top-nav {
+  height: 36px;
+  margin: 0 auto;
+  width: 1210px;
+  background-color: yellow;
+}
+.top-wrap .top-nav .list-lf {
+  float: left;
+  list-style: none;
+  height: 36px;
+  line-height: 34px;
+  font-family: simsun;
+  font-size: 12px;
+}
+.top-wrap .top-nav .list-lf li:nth-of-type(1) {
+  margin-right: 20px;
+}
+.top-wrap .top-nav .list-lf li {
+  float: left;
+}
+.top-wrap .top-nav .list-lf li a {
+  text-decoration: none;
+  color: red;
+  margin-right: 20px;
+}
+.top-wrap .top-nav .list-lf li span {
+  color: #878787;
+}
+.top-wrap .top-nav .list-lf li:nth-of-type(3) a {
+  color: #878787;
+}
+.top-wrap .top-nav .list-rg {
+  float: right;
+}
+.top-wrap .top-nav .list-rg li {
+  float: left;
+  font-size: 12px;
+  line-height: 34px;
+  padding-right: 18px;
+}
+.top-wrap .top-nav .list-rg li a {
+  padding-right: 18px;
+  color: #666;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+.top-wrap .top-nav .list-rg li a span {
+  width: 84px;
+}
+.top-wrap .top-nav .list-rg li a b {
+  display: inline-block;
+  background-position: -22px 0px;
+  font-size: 0;
+  height: 12px;
+  line-height: 0;
+  right: 13px;
+  top: 17px;
+  width: 7px;
+  background: url(https://static.winxuancdn.com/css/v2/images/common-bg.png) no-repeat;
 }
