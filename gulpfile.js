@@ -130,7 +130,7 @@ gulp.task("minjs" , function( next ){
 // 依赖处理; 
 
 gulp.task("libs" , function(next){
-      gulp.src(["./src/libs/*.js"])
+      gulp.src(["./src/libs/**/*"])
       .pipe(gulp.dest("./dist/libs"));
 
       gulp.src(["./src/scss/font/**/*"])

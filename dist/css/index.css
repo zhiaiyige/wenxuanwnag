@@ -48,6 +48,21 @@ table {
   border-spacing: 0;
 }
 
+@font-face {
+  font-family: "iconfont";
+  src: url("iconfont.eot?t=1608969337353");
+  /* IE9 */
+  src: url("iconfont.eot?t=1608969337353#iefix") format("embedded-opentype"), url("data:application/x-font-woff2;charset=utf-8;base64,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") format("woff2"), url("iconfont.woff?t=1608969337353") format("woff"), url("iconfont.ttf?t=1608969337353") format("truetype"), url("iconfont.svg?t=1608969337353#iconfont") format("svg");
+  /* iOS 4.1- */
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .temp-active {
   height: 90px;
   min-width: 1210px;
@@ -76,7 +91,6 @@ table {
   height: 36px;
   margin: 0 auto;
   width: 1210px;
-  background-color: yellow;
 }
 .top-wrap .top-nav .list-lf {
   float: left;
@@ -129,4 +143,203 @@ table {
   color: #666;
   font-weight: bold;
   text-align: center;
+}
+
+.header-content {
+  height: 112px;
+}
+.header-content .master-header {
+  width: 1210px;
+  height: 112px;
+  margin: 0 auto;
+}
+.header-content .master-header .master-logo {
+  width: 296px;
+  height: 44px;
+  padding-top: 31px;
+  margin-right: 94px;
+  float: left;
+}
+.header-content .master-header .master-search {
+  width: 600px;
+  padding-top: 27px;
+  float: left;
+  color: #666;
+  font-size: 12px;
+  font-family: simsun;
+}
+.header-content .master-header .master-search form {
+  width: 600px;
+  height: 41px;
+}
+.header-content .master-header .master-search form .master-search-box {
+  position: relative;
+  height: 41px;
+  float: left;
+}
+.header-content .master-header .master-search form .master-search-box img {
+  position: absolute;
+  top: 12px;
+  left: 13px;
+  width: 16px;
+}
+.header-content .master-header .master-search form .master-search-box input {
+  border: 2px solid #E4393C;
+  color: #b3b3b3;
+  font-size: 14px;
+  height: 20px;
+  padding: 8px 8px 8px 35px;
+  width: 435px;
+  outline: 0;
+}
+.header-content .master-header .master-search form .master-search-box button {
+  background: #e43c3f;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  width: 118px;
+  float: right;
+}
+.header-content .master-header .master-search .master-search-keywords {
+  margin-top: 8px;
+  height: 14px;
+  line-height: 14px;
+  overflow: hidden;
+  font-size: 12px;
+  color: #999;
+  width: 600px;
+}
+.header-content .master-header .master-search .master-search-keywords a {
+  text-decoration: none;
+  color: #F00;
+  font-weight: bold;
+  margin: 0 10px;
+}
+.header-content .master-header .master-search .master-search-keywords .master-adv {
+  font-size: 12px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: #999999;
+  margin-top: 5px;
+  width: 100px;
+  text-decoration: none;
+  margin: 0;
+  margin-left: 39px;
+}
+.header-content .master-header .master-user {
+  margin-top: 26px;
+  margin-left: 94px;
+  width: 118px;
+  height: 42px;
+  color: #666;
+  font-size: 12px;
+  font-family: simsun;
+  background-color: white;
+  float: left;
+  box-sizing: border-box;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+}
+.header-content .master-header .master-user a {
+  text-decoration: none;
+  color: #666;
+  position: relative;
+}
+.header-content .master-header .master-user a .iconfont {
+  display: inline-block;
+  font-size: 25px;
+  line-height: 42px;
+  margin-left: 20px;
+}
+.header-content .master-header .master-user a .span-shop2 {
+  display: inline-block;
+  width: 36px;
+  font-size: 12px;
+  position: absolute;
+  top: -5px;
+}
+
+.master-nav-wrap {
+  background: yellow;
+  height: 40px;
+}
+.master-nav-wrap .master-nav-cf {
+  background-color: yellowgreen;
+  margin: auto;
+  width: 1210px;
+  height: 40px;
+}
+.master-nav-wrap .master-nav-cf .interaction {
+  background: #D52C27;
+  color: #fff;
+  font-family: "Microsoft Yahei";
+  font-size: 15px;
+  font-weight: 700;
+  text-align: left;
+  width: 208px;
+  height: 40px;
+  line-height: 40px;
+  float: left;
+}
+.master-nav-wrap .master-nav-cf .interaction span {
+  float: left;
+  margin: 0 7px;
+}
+.master-nav-wrap .master-nav-cf .interaction h2 {
+  margin-left: 10px;
+  float: left;
+}
+.master-nav-wrap .master-nav-cf .cf {
+  width: 1002px;
+  height: 40px;
+  float: left;
+  line-height: 40px;
+}
+.master-nav-wrap .master-nav-cf .cf ul li {
+  float: left;
+}
+.master-nav-wrap .master-nav-cf .cf ul li a {
+  display: inline-block;
+  font-family: "Microsoft Yahei";
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 14px;
+  text-decoration: none;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 480px;
+  line-height: 480px;
+  box-shadow: 0 0 5px #dddddd;
+  text-align: center;
+  position: relative;
+}
+.swiper-container .swiper-list {
+  height: 480px;
+  width: 208px;
+  background-color: yellowgreen;
+  position: absolute;
+  left: 347px;
+  z-index: 2;
+}
+.swiper-container .swiper-list .list-mainmenu {
+  margin: auto 0;
+  padding: 5px 6px;
+  border: 2px solid rgba(255, 253, 252, 0);
+  margin: auto 0;
+  display: block;
+}
+.swiper-container .swiper-list .list-mainmenu .second_title {
+  height: 24px;
+  line-height: 24px;
+  overflow: hidden;
+  font-size: 14px;
+  color: #323232;
+  font-weight: 600;
 }
