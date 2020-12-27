@@ -48,6 +48,15 @@ table {
   border-spacing: 0;
 }
 
+.clear::after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
 @font-face {
   font-family: "iconfont";
   src: url("iconfont.eot?t=1608969337353");

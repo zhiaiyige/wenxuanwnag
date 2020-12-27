@@ -9,3 +9,8 @@ new Swiper("#swiper", {
     el: '.swiper-pagination'
   }
 });
+$(function () {
+  $(".item-list").mouseover(function () {
+    $(this).addClass("active").siblings().removeClass("active");
+  });
+});
