@@ -1,0 +1,71 @@
+@import "./header.scss";
+.nav-wrap{
+    background: #e4393c;
+    height: 40px;
+    width: 100%;
+    .master-nav{
+        background: #e4393c;
+        height: 40px;
+        line-height: 40px;
+        margin: 0 auto;
+        width: 1210px;
+        font-size: 12px;
+        .nav1{
+            background: #c91518;
+             color: #fff;
+             display: block;
+             font-family: "Microsoft Yahei";
+             font-size: 14px;
+             font-weight: 700;
+             text-align: left;
+             text-indent: 22px;
+             width: 210px;
+             position: relative;
+             float: left;
+             b{
+                background: url(../images/wx-bg.png) no-repeat;
+                background-position: -181px -3px;
+                height: 5px;
+                line-height: 0;
+                position: absolute;
+                right: 12px;
+                top: 18px;
+                width: 9px;
+                display: inline-block;
+              }
+          }
+        .list{
+            float: left;
+            li{
+                float: left;
+                color: #fff;
+                font-family: "Microsoft Yahei";
+                font-size: 14px;
+                font-weight: 700;
+                padding: 0 24px;
+                text-decoration: none;
+            }
+        }
+       
+    }
+
+}
+.line{
+    background: #f7f7f7;
+    border-bottom: 1px solid #e8e8e8;
+    height: 32px;
+    width: 100%;
+    .line1{
+        width: 1210px;
+        height: 32px;
+        margin: 0 auto;
+        line-height: 30px;
+        a{
+            float: left;
+            text-decoration: none;
+            font-size: 14px;
+            padding: 0 18px;
+            color: #666;
+        }
+    }
+}
