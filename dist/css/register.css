@@ -1,0 +1,351 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.clear::after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+body {
+  background: #f5f5f5;
+}
+body .login-header {
+  width: 100%;
+  height: 88px;
+}
+body .login-header .center {
+  width: 1195px;
+  margin: 0 auto;
+  height: 88px;
+}
+body .login-header .center .logo-bg {
+  background-size: 100%;
+  line-height: 88px;
+  display: inline-block;
+  margin-top: 15px;
+}
+body .login-header .center .logo-bg img {
+  width: 288px;
+  height: 44px;
+  line-height: 88px;
+}
+body .wx-wrapper {
+  width: 100%;
+  height: 662px;
+}
+body .wx-wrapper .wx-row {
+  width: 1210px;
+  margin: 0 auto;
+  height: 662px;
+  background-color: white;
+}
+body .wx-wrapper .wx-row .title {
+  width: 1210px;
+  height: 84px;
+  line-height: 84px;
+  border-bottom: 1px solid #efefef;
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+}
+body .wx-wrapper .wx-row .progress-wrap {
+  width: 700px;
+  margin: 40px auto 80px;
+  position: relative;
+}
+body .wx-wrapper .wx-row .progress-wrap span {
+  position: relative;
+  font-size: 14px;
+  color: #999;
+  text-align: center;
+}
+body .wx-wrapper .wx-row .progress-wrap .zc1 {
+  left: 80px;
+}
+body .wx-wrapper .wx-row .progress-wrap .zc1::before {
+  content: "";
+  width: 400px;
+  height: 1px;
+  background: #e8e8e8;
+  margin-left: 50%;
+  position: absolute;
+  bottom: -14px;
+  left: 0;
+}
+body .wx-wrapper .wx-row .progress-wrap .zc1::after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background: #e50834;
+  border-radius: 8px;
+  position: absolute;
+  bottom: -21px;
+  left: 50%;
+  margin-left: -8px;
+  border: 5px solid #fff;
+  box-sizing: border-box;
+}
+body .wx-wrapper .wx-row .progress-wrap .zc2 {
+  left: 248px;
+}
+body .wx-wrapper .wx-row .progress-wrap .zc2::before {
+  content: "";
+  width: 225px;
+  height: 1px;
+  background: #e8e8e8;
+  margin-left: 50%;
+  position: absolute;
+  bottom: -14px;
+  left: 0;
+}
+body .wx-wrapper .wx-row .progress-wrap .zc2::after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background: #e8e8e8;
+  border-radius: 8px;
+  position: absolute;
+  bottom: -21px;
+  left: 50%;
+  margin-left: -8px;
+  border: 5px solid #fff;
+  box-sizing: border-box;
+}
+body .wx-wrapper .wx-row .progress-wrap .zc3 {
+  left: 400px;
+}
+body .wx-wrapper .wx-row .progress-wrap .zc3::after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background: #e8e8e8;
+  border-radius: 8px;
+  position: absolute;
+  bottom: -21px;
+  left: 50%;
+  margin-left: -8px;
+  border: 5px solid #fff;
+  box-sizing: border-box;
+}
+body .wx-wrapper .wx-row .progress-wrap .active {
+  color: #e50834;
+}
+body .wx-wrapper .wx-row .register-step {
+  width: 1210px;
+  height: 308px;
+}
+body .wx-wrapper .wx-row .register-step .regist-form {
+  width: 460px;
+  height: 308px;
+  margin: 0 auto;
+}
+body .wx-wrapper .wx-row .register-step .regist-form .input-1 {
+  width: 100%;
+  height: 42px;
+  color: #333;
+  font-size: 14px;
+  line-height: 42px;
+  margin-bottom: 32px;
+}
+body .wx-wrapper .wx-row .register-step .regist-form .input-1 .input-laber {
+  width: 100px;
+  text-align: right;
+  margin-right: 38px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+body .wx-wrapper .wx-row .register-step .regist-form .input-1 input {
+  padding: 13px 11px;
+  width: 317px;
+  height: 100%;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  outline: none;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+body .wx-wrapper .wx-row .register-step .regist-form .input-2 {
+  width: 100%;
+  height: 42px;
+  color: #333;
+  font-size: 14px;
+  line-height: 42px;
+  margin-bottom: 32px;
+  position: relative;
+}
+body .wx-wrapper .wx-row .register-step .regist-form .input-2 .input-laber {
+  width: 100px;
+  text-align: right;
+  margin-right: 38px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+body .wx-wrapper .wx-row .register-step .regist-form .input-2 input {
+  padding: 13px 11px;
+  width: 317px;
+  height: 100%;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  outline: none;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+body .wx-wrapper .wx-row .register-step .regist-form .input-2 img {
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  width: 100px;
+  height: 40px;
+  border: 1px solid #e6e6e6;
+  border-left: 0;
+  border: none;
+  box-sizing: border-box;
+}
+body .wx-wrapper .wx-row .register-step .regist-form .input-2 a {
+  position: absolute;
+  top: 0;
+  right: -72px;
+  width: 60px;
+  color: #1d66b2;
+  text-decoration: none;
+}
+body .wx-wrapper .wx-row .register-step .regist-form .input-3 {
+  width: 100%;
+  height: 42px;
+  line-height: 42px;
+  margin-bottom: 32px;
+}
+body .wx-wrapper .wx-row .register-step .regist-form .input-3 .input-laber {
+  color: #333;
+  font-size: 14px;
+  width: 100px;
+  text-align: right;
+  margin-right: 38px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+body .wx-wrapper .wx-row .register-step .regist-form .input-3 input {
+  padding: 13px 11px;
+  width: 215px;
+  height: 100%;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  outline: none;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+body .wx-wrapper .wx-row .register-step .regist-form .input-3 button {
+  margin-left: 10px;
+  width: 86px;
+  height: 100%;
+  background: #f5f5f5;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  color: #666;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+}
+body .wx-wrapper .wx-row .register-step .regist-form .input-4 {
+  width: 460px;
+  height: 20px;
+  line-height: 20px;
+  margin-bottom: 30px;
+  color: #999;
+  font-size: 14px;
+}
+body .wx-wrapper .wx-row .register-step .regist-form .input-4 label {
+  width: 100px;
+  text-align: right;
+  margin-right: 38px;
+  display: inline-block;
+}
+body .wx-wrapper .wx-row .register-step .regist-form .input-4 a {
+  text-decoration: none;
+  color: #e50834;
+  background-color: pink;
+}
+body .wx-wrapper .wx-row .register-step .regist-form .btn .laber {
+  width: 100px;
+  text-align: right;
+  margin-right: 38px;
+  display: inline-block;
+}
+body .wx-wrapper .wx-row .register-step .regist-form .btn button {
+  background: #e5e5e5;
+  color: #a0a0a0;
+  width: 315px;
+  height: 42px;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  font-size: 16px;
+}
+body .login_footer {
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+body .login_footer .content {
+  padding-bottom: 25px;
+}
+body .login_footer .content .bottom {
+  text-align: center;
+  box-sizing: border-box;
+}
+body .login_footer .content .bottom .cords {
+  color: #666;
+  font-size: 13px;
+  line-height: 25px;
+}

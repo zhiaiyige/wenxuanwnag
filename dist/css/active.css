@@ -88,7 +88,6 @@ body .safe-1 {
 body .safe-1 .col-cont {
   width: 990px;
   margin: 0 auto;
-  background-color: yellow;
 }
 body .safe-1 .col-cont ul li {
   width: 150px;
@@ -146,4 +145,19 @@ body .safe-1 .col-cont ul li .btn {
   font-size: 14px;
   font-weight: bold;
   color: #fff;
+}
+body .login_footer {
+  width: 100%;
+}
+body .login_footer .content {
+  padding-bottom: 25px;
+}
+body .login_footer .content .bottom {
+  text-align: center;
+  box-sizing: border-box;
+}
+body .login_footer .content .bottom .cords {
+  color: #666;
+  font-size: 13px;
+  line-height: 25px;
 }
