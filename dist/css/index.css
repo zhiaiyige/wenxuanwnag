@@ -781,6 +781,14 @@ body .module .bt-row .common-moudle2 h5 {
   position: absolute;
   top: 30px;
 }
+body .module .bt-row .common-moudle2 h5:nth-of-type(2) {
+  left: 68px;
+  color: #999;
+}
+body .module .bt-row .common-moudle2 h5:nth-of-type(3) {
+  left: 136px;
+  color: #999;
+}
 body .module .bt-row .common-moudle2 img {
   position: absolute;
   top: 30px;
@@ -982,4 +990,251 @@ body .module .bt-row .col-big .cont .img a {
 }
 body .module .bt-row .col-big .cont .img:hover a {
   display: block;
+}
+body .cont-Jtab {
+  width: 1210px;
+  background-color: white;
+  margin: 0 auto;
+}
+body .cont-Jtab .grid-mod-l {
+  width: 210px;
+  float: left;
+  height: 501px;
+}
+body .cont-Jtab .grid-mod-l img {
+  display: inline;
+  width: 208px;
+  height: 349.719px;
+}
+body .cont-Jtab .grid-mod-l dl {
+  margin: 0 8px 12px;
+  width: 193px;
+  height: 58px;
+  font-size: 13px;
+}
+body .cont-Jtab .grid-mod-l dl dt {
+  font-weight: 700;
+  line-height: 30px;
+}
+body .cont-Jtab .grid-mod-l dl dd {
+  color: #666;
+  line-height: 28px;
+}
+body .cont-Jtab .grid-mod-r {
+  width: 996px;
+  height: 501px;
+  float: right;
+}
+body .cont-Jtab .grid-mod-r .list-l {
+  width: 360px;
+  height: 501px;
+  float: left;
+}
+body .cont-Jtab .grid-mod-r .list-r {
+  width: 633px;
+  height: 501px;
+  float: left;
+  box-sizing: border-box;
+}
+body .cont-Jtab .grid-mod-r .list-r li {
+  width: 209px;
+  height: 249px;
+  float: left;
+  overflow: hidden;
+  border: 1px solid #f1f1f1;
+}
+body .cont-Jtab .grid-mod-r .list-r li img {
+  display: block;
+  width: 160px;
+  height: 160px;
+  margin: 12px auto;
+}
+body .cont-Jtab .grid-mod-r .list-r li a {
+  display: block;
+  height: 36px;
+  line-height: 18px;
+  font-size: 13px;
+  margin: 0 15px;
+  padding-top: 8px;
+  width: 179px;
+  text-decoration: none;
+  overflow: hidden;
+  color: #666;
+  text-align: left;
+}
+body .unit {
+  width: 100%;
+  height: 192px;
+}
+body .unit .main-service {
+  height: 192px;
+  width: 1210px;
+  background-color: yellow;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 28px 8px 25px;
+  box-sizing: border-box;
+}
+body .unit .main-service dl {
+  float: left;
+  margin-right: 38px;
+  width: 132px;
+}
+body .unit .main-service dl dt {
+  border-bottom: 1px solid #c9c9c9;
+  color: #666;
+  font-family: "Microsoft Yahei";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 6px;
+  position: relative;
+  text-align: center;
+}
+body .unit .main-service dl dd {
+  font-size: 13px;
+  line-height: 20px;
+  padding-left: 20px;
+  color: #666;
+  font-weight: 400;
+  background: url(../images/repeat-bg.png) no-repeat;
+}
+body .unit .main-service dl:nth-of-type(7) dd:nth-of-type(1) {
+  background-position: 0 -24px;
+}
+body .unit .main-service dl:nth-of-type(7) dd:nth-of-type(2) {
+  background-position: 0 -52px;
+}
+body .unit .main-service dl:nth-of-type(7) dd:nth-of-type(3) {
+  background-position: 0 -77px;
+}
+body .unit .main-service dl:nth-of-type(7) dd:nth-of-type(4) {
+  background-position: 0 -102px;
+}
+body .login_footer {
+  width: 100%;
+}
+body .login_footer .content {
+  padding-bottom: 25px;
+  background: #f5f5f5;
+}
+body .login_footer .content .top {
+  text-align: center;
+  height: 110px;
+  background: #f5f5f5;
+  padding-top: 30px;
+}
+body .login_footer .content .top .center {
+  width: 1195px;
+  margin: 0 auto;
+  height: 110px;
+}
+body .login_footer .content .top .center div:nth-of-type(1) {
+  float: left;
+  margin: 0 46px;
+}
+body .login_footer .content .top .center div:nth-of-type(1) i {
+  background-size: 100%;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  vertical-align: bottom;
+  background: url(../images/login_footer1.png);
+  float: left;
+}
+body .login_footer .content .top .center div:nth-of-type(1) div {
+  border-left: 1px solid #e6e6e6;
+  padding-left: 16px;
+  margin-left: 13px;
+  color: #444;
+  line-height: 26px;
+  font-weight: 600;
+  float: left;
+}
+body .login_footer .content .top .center div:nth-of-type(2) {
+  float: left;
+  margin: 0 46px;
+}
+body .login_footer .content .top .center div:nth-of-type(2) i {
+  background-size: 100%;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  vertical-align: bottom;
+  background: url(../images/login_footer2.png);
+  float: left;
+}
+body .login_footer .content .top .center div:nth-of-type(2) div {
+  border-left: 1px solid #e6e6e6;
+  padding-left: 16px;
+  margin-left: 13px;
+  color: #444;
+  line-height: 26px;
+  font-weight: 600;
+  float: left;
+}
+body .login_footer .content .top .center div:nth-of-type(3) {
+  float: left;
+  margin: 0 46px;
+}
+body .login_footer .content .top .center div:nth-of-type(3) i {
+  background-size: 100%;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  vertical-align: bottom;
+  background: url(../images/login_footer3.png);
+  float: left;
+}
+body .login_footer .content .top .center div:nth-of-type(3) div {
+  border-left: 1px solid #e6e6e6;
+  padding-left: 16px;
+  margin-left: 13px;
+  color: #444;
+  line-height: 26px;
+  font-weight: 600;
+  float: left;
+}
+body .login_footer .content .top .center div:nth-of-type(4) {
+  float: left;
+  margin: 0 46px;
+}
+body .login_footer .content .top .center div:nth-of-type(4) i {
+  background-size: 100%;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  vertical-align: bottom;
+  background: url(../images/login_footer4.png);
+  float: left;
+}
+body .login_footer .content .top .center div:nth-of-type(4) div {
+  border-left: 1px solid #e6e6e6;
+  padding-left: 16px;
+  margin-left: 13px;
+  color: #444;
+  line-height: 26px;
+  font-weight: 600;
+  float: left;
+}
+body .login_footer .content .bottom {
+  text-align: center;
+  box-sizing: border-box;
+  background: #f5f5f5;
+}
+body .login_footer .content .bottom .winshare {
+  margin-bottom: 20px;
+}
+body .login_footer .content .bottom .winshare a {
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  padding: 0 5px;
+  color: #666;
+  font-size: 14px;
+}
+body .login_footer .content .bottom .cords {
+  color: #666;
+  font-size: 13px;
+  line-height: 25px;
 }

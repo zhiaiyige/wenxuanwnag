@@ -1,0 +1,149 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.clear::after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+body {
+  background-color: #A4E6F9;
+}
+body .top-nav {
+  width: 100%;
+  height: 50px;
+  background: url(../images/dddd2.jpg) repeat;
+}
+body .top-nav .top-title {
+  margin: 0 auto;
+  width: 1000px;
+  height: 50px;
+}
+body .img {
+  width: 100%;
+  height: 400px;
+  background: url(../images/2000-400.jpg) no-repeat;
+  background-position: center top;
+}
+body .img-1 {
+  width: 1125px;
+  height: 128px;
+  margin: 0 auto;
+}
+body .safe-1 {
+  width: 100%;
+  padding: 20px 0;
+}
+body .safe-1 .col-cont {
+  width: 990px;
+  margin: 0 auto;
+  background-color: yellow;
+}
+body .safe-1 .col-cont ul li {
+  width: 150px;
+  padding: 20px 20px 10px 20px;
+  margin: 4px;
+  float: left;
+  background-color: white;
+}
+body .safe-1 .col-cont ul li img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 150px;
+  height: 150px;
+}
+body .safe-1 .col-cont ul li p {
+  font-size: 16px;
+  color: #000;
+  font-weight: bold;
+  height: 40px;
+  line-height: 20px;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+body .safe-1 .col-cont ul li .price {
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 10px;
+}
+body .safe-1 .col-cont ul li .price .sp {
+  font-size: 26px;
+  font-weight: bold;
+  color: #f33;
+}
+body .safe-1 .col-cont ul li .price .sp s {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: normal;
+}
+body .safe-1 .col-cont ul li .price .lp {
+  text-decoration: line-through;
+}
+body .safe-1 .col-cont ul li .btn {
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+  width: 150px;
+  height: 36px;
+  line-height: 35px;
+  text-decoration: none;
+  background: #a4e6f9;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
