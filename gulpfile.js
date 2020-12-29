@@ -108,9 +108,9 @@ gulp.task("html" , function(next){
 
 gulp.task("js" , function( next ){
       gulp.src(["./src/javascripts/*.js"])
-      .pipe( babel({
-            presets : ['@babel/env']
-      }))
+      // .pipe( babel({
+      //       presets : ['@babel/env']
+      // }))
       .pipe(gulp.dest("./dist/javascripts"))
       .pipe(connect.reload());
 

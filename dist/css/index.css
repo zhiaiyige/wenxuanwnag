@@ -1303,3 +1303,76 @@ body .login_footer .content .bottom .cords {
   font-size: 13px;
   line-height: 25px;
 }
+body .backtop {
+  display: block;
+  bottom: 20px;
+  left: 1566.5px;
+  position: fixed;
+  padding: 4px;
+  cursor: pointer;
+  width: auto;
+}
+body .left-nav {
+  position: fixed;
+  bottom: 20%;
+  left: 50%;
+  width: 36px;
+  height: 333px;
+  margin-left: -653px;
+  z-index: 1;
+}
+body .left-nav .nav-item {
+  overflow: hidden;
+  width: 36px;
+  height: 36px;
+  background: rgba(0, 0, 0, 0.6);
+  margin-bottom: 1px;
+  line-height: 1.2;
+  box-sizing: border-box;
+  padding: 4px 6px 6px;
+  cursor: pointer;
+}
+body .left-nav .nav-item a {
+  display: block;
+  text-decoration: none;
+  font-size: 12px;
+  color: #fff;
+}
+body .left-nav .nav-item_1 {
+  width: 36px;
+  height: 36px;
+  background: rgba(0, 0, 0, 0.6);
+  margin-bottom: 1px;
+}
+body .left-nav .nav-item_1 a {
+  width: 36px;
+  height: 36px;
+  display: block;
+  box-sizing: border-box;
+  padding: 4px 6px 6px;
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  padding-top: 20px;
+  background: url(https://static.winxuancdn.com/cms/assets/images/winxuanhome/index/maodian-service.png) center 3px no-repeat;
+}
+body .left-nav .nav-item_2 {
+  width: 36px;
+  height: 36px;
+  background: rgba(0, 0, 0, 0.6);
+  margin-bottom: 1px;
+}
+body .left-nav .nav-item_2 a {
+  width: 36px;
+  height: 36px;
+  display: block;
+  box-sizing: border-box;
+  padding: 4px 6px 6px;
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  padding-top: 20px;
+  background: url(https://static.winxuancdn.com/cms/assets/images/winxuanhome/index/back-top.png) center 8px no-repeat;
+}

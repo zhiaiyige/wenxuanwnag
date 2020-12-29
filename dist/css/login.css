@@ -234,6 +234,10 @@ table {
   float: right;
   color: #666;
 }
+.login-wrapper .center .login_box .remember_pwd input {
+  outline: none;
+  vertical-align: middle;
+}
 .login-wrapper .center .login_box #login_btn {
   width: 100%;
   height: 42px;

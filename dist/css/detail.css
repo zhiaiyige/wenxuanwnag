@@ -340,10 +340,10 @@ table {
 }
 
 body {
-  background: #f5f5f5;
+  background-color: white;
 }
 body .nav-wrap {
-  background: #e4393c;
+  background: white;
   height: 40px;
   width: 100%;
 }
@@ -392,12 +392,14 @@ body .nav-wrap .master-nav .list li {
   text-decoration: none;
 }
 body .line {
-  background: #f7f7f7;
-  border-bottom: 1px solid #e8e8e8;
+  background: white;
+  border-bottom: 1px solid white;
   height: 32px;
   width: 100%;
 }
 body .line .line1 {
+  background: #f7f7f7;
+  border-bottom: 1px solid #e8e8e8;
   width: 1210px;
   height: 32px;
   margin: 0 auto;
@@ -410,201 +412,369 @@ body .line .line1 a {
   padding: 0 18px;
   color: #666;
 }
-body .wx-content {
+body .main-cf {
+  padding: 8px 0;
   width: 1210px;
-  background-color: black;
-  margin: 14px auto 0;
-}
-body .wx-content .collf {
-  width: 977px;
-  background-color: yellow;
-  float: left;
-  margin-right: 83px;
-}
-body .wx-content .collf .mod-breadhead {
-  height: 34px;
-  width: 977px;
-  line-height: 34px;
-  color: #666;
+  height: 44px;
   margin: 0 auto;
-  background-color: yellowgreen;
+  box-sizing: border-box;
+  line-height: 28px;
 }
-body .wx-content .collf .mod-breadhead a {
+body .main-cf a {
   text-decoration: none;
   color: #666;
-  padding: 0 6px;
-  font-size: 12px;
+  font-size: 13px;
+  padding: 6px 8px 0;
 }
-body .wx-content .collf .mod-breadhead .first {
+body .main-cf a:nth-of-type(1) {
   font-size: 18px;
-  font-family: Microsoft Yahei;
   font-weight: 700;
+  padding: 6px 8px 0;
 }
-body .wx-content .collf .selectbox {
-  width: 975px;
-  border: 1px solid #e8e8e8;
-  margin-top: 10px;
+body .col-main {
+  width: 1210px;
+  background-color: white;
+  margin: 0 auto;
 }
-body .wx-content .collf .selectbox .selectbox-title {
+body .col-main .mainlf {
+  width: 210px;
+  float: left;
+  margin-right: 10px;
+}
+body .col-main .mainlf .title {
   height: 28px;
   line-height: 28px;
   background: #f7f7f7;
-  color: #666;
-  background: #f7f7f7;
-  border-bottom: 1px solid #e8e8e8;
-}
-body .wx-content .collf .selectbox .selectbox-title dd {
-  padding-left: 16px;
-  color: #666;
-  font-weight: 700;
-  font-size: 12px;
-}
-body .wx-content .collf .selectbox .selectbox-row {
+  border: 1px solid #e8e8e8;
   width: 100%;
-  height: 31px;
-  line-height: 31px;
-  border-bottom: 1px dotted #e8e8e8;
-  font-size: 12px;
 }
-body .wx-content .collf .selectbox .selectbox-row dt {
-  float: left;
+body .col-main .mainlf .title h2 {
+  font-size: 14px;
+  font-family: "Microsoft Yahei";
   font-weight: 700;
   color: #000;
-  padding-left: 26px;
-}
-body .wx-content .collf .selectbox .selectbox-row dd {
-  float: left;
-  padding: 0 10px;
-  color: #005ea7;
-}
-body .wx-content .collf .selectbox .selectbox-row .current {
-  color: #db2a41;
-  font-weight: 700;
-}
-body .wx-content .collf .selectbox dl:nth-of-type(4) {
-  border-bottom: 0px;
-}
-body .wx-content .collf .selectbox .selectbox-sort {
-  height: 28px;
-  line-height: 28px;
-  width: 100%;
-  border-top: 1px solid #e8e8e8;
   text-align: center;
-  background: #f7f7f7;
 }
-body .wx-content .collf .selectbox .selectbox-sort dt {
-  float: left;
-  width: 89px;
+body .col-main .mainlf .cont {
+  width: 100%;
+  border: 1px solid #e8e8e8;
+  border-top: 0 none;
+  overflow: hidden;
 }
-body .wx-content .collf .selectbox .selectbox-sort dt a {
-  color: #db2a41;
-  text-decoration: none;
+body .col-main .mainlf .cont ul {
+  padding: 10px 0;
+  margin: 0 8px 4px;
+  list-style: none;
+}
+body .col-main .mainlf .cont ul li {
+  height: 24px;
+  line-height: 24px;
+  overflow: hidden;
+  color: #cb151a;
   font-size: 12px;
 }
-body .wx-content .collf .selectbox .selectbox-sort dd {
-  float: left;
-  border-left: 1px solid #e8e8e8;
-  width: auto;
-  padding: 0 16px;
-  height: 28px;
+body .col-main .mainlf .ad-base {
+  width: 100%;
+  border: 1px solid #e8e8e8;
+  border-top: 0;
+}
+body .col-main .mainlf .ad-base img {
   display: block;
+  margin: 0 4px 4px;
 }
-body .wx-content .collf .selectbox .selectbox-sort dd b {
-  background-position: -52px 0;
-  display: inline-block;
-  width: 16px;
-  height: 13px;
-  margin-top: -4px;
-  margin-left: 2px;
-  background: url(https://static.winxuancdn.com/css/v2/images/classify_icons.png?201409110933=) no-repeat;
-}
-body .wx-content .collf .selectbox .selectbox-sort dd a {
-  color: #db2a41;
-  text-decoration: none;
-  font-size: 12px;
-}
-body .wx-content .collf .selectbox .selectbox-sort dd span {
-  display: inline-block;
-  width: 70px;
-  height: 28px;
-  color: #666;
-  font-size: 12px;
-}
-body .wx-content .collf .cell-books {
+body .col-main .mainlf .col-base {
+  margin-top: 10px;
   width: 100%;
 }
-body .wx-content .collf .cell-books .books {
-  width: 220px;
-  height: 282px;
-  background-color: blanchedalmond;
+body .col-main .mainlf .cont2 {
+  border: 1px solid #e8e8e8;
+  border-top: none;
+}
+body .col-main .mainlf .cont2 .cell {
+  margin: 0 9px;
+  height: 76px;
+  box-sizing: border-box;
+}
+body .col-main .mainlf .cont2 .cell img {
   float: left;
-  padding: 10px 6px 0;
+  width: 55px;
+  height: 55px;
+  padding: 6px 6px 0 0;
 }
-body .wx-content .collf .cell-books .books img {
-  display: block;
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
-}
-body .wx-content .collf .cell-books .books p {
-  color: #666;
-  text-align: left;
+body .col-main .mainlf .cont2 .cell .name {
   height: 40px;
   line-height: 20px;
-  margin: 0 10px 4px;
+  margin: 6px 0;
+  color: #666;
   font-size: 12px;
 }
-body .wx-content .collf .cell-books .books .price {
-  margin: 0 10px 6px;
-  line-height: 24px;
-}
-body .wx-content .collf .cell-books .books .price .price-n {
-  color: #db2a41;
-  font-size: 16px;
-  float: left;
-}
-body .wx-content .collf .cell-books .books .price .price-o {
-  color: #b5b2b3;
-  text-decoration: line-through;
-  float: right;
+body .col-main .mainlf .cont2 .cell .price {
+  color: #666;
   font-size: 12px;
+  height: 14px;
+  line-height: 14px;
 }
-body .wx-content .colrg {
-  width: 150px;
-  background-color: yellowgreen;
-  float: left;
-}
-body .wx-content .colrg .title {
-  width: 100%;
-  height: 28px;
-  line-height: 26px;
-}
-body .wx-content .colrg .title h2 {
-  font-size: 14px;
+body .col-main .mainlf .cont2 .cell .price b {
+  font-size: 13px;
   font-weight: 700;
-  color: #000;
+  color: #e20000;
+}
+body .col-main .mainlf .ulist {
+  width: 100%;
+  border: 1px solid #e8e8e8;
+  border-top: none;
+}
+body .col-main .mainlf .ulist li {
+  list-style: none;
+  height: 32px;
+  line-height: 32px;
+  margin: 0 12px;
+  overflow: hidden;
+}
+body .col-main .mainlf .ulist li a {
+  color: #666;
+  text-decoration: none;
+  font-size: 12px;
+}
+body .col-main .mainrg {
+  width: 990px;
+  height: 496px;
+  float: left;
+}
+body .col-main .mainrg .info-side {
+  width: 350px;
+  height: 496px;
+  float: left;
+  margin-right: 20px;
+}
+body .col-main .mainrg .info-side .small {
+  position: list;
+}
+body .col-main .mainrg .info-side .small img {
+  min-width: 350px;
+  min-height: 350px;
+}
+body .col-main .mainrg .info-side .big {
+  display: none;
+}
+body .col-main .mainrg .info-side .infolink {
+  width: 350px;
+  height: 27px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  background-color: white;
+}
+body .col-main .mainrg .info-side .infolink a {
+  display: block;
+  float: left;
+  width: 106px;
+  height: 27px;
+  background: url(https://static.winxuancdn.com/css/v2/images/common-btn.png?20170907) 0 -728px no-repeat;
+  margin-left: 60px;
+  cursor: pointer;
+  color: #666;
   text-align: center;
 }
-body .wx-content .colrg .cont {
-  width: 100%;
+body .col-main .mainrg .info-side .fx {
+  width: 350px;
+  height: 27px;
 }
-body .wx-content .colrg .cont ul {
-  width: 100%;
-}
-body .wx-content .colrg .cont ul li {
+body .col-main .mainrg .info-side .fx span {
+  display: inline-block;
+  color: #666;
+  line-height: 27px;
   font-size: 12px;
+  margin-left: 5px;
+}
+body .col-main .mainrg .info-side .fx a {
+  display: inline-block;
+  border: 1px solid #e8e8e8;
+  color: red;
+  width: 86px;
+  height: 27px;
+  line-height: 27px;
+  margin-left: 32px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 12px;
+  background-color: whitesmoke;
+}
+body .col-main .mainrg .info-main {
+  width: 620px;
+  height: 496px;
+  float: left;
+}
+body .col-main .mainrg .info-main .name {
+  width: 620px;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+  border-bottom: 1px dotted #e7e7e7;
+}
+body .col-main .mainrg .info-main .name h1 {
+  max-height: 48px;
+  line-height: 24px;
+  margin-bottom: 6px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+}
+body .col-main .mainrg .info-main .name h3 {
+  line-height: 24px;
+  font-size: 15px;
+  color: red;
+}
+body .col-main .mainrg .info-main .attr {
+  width: 620px;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+  border-bottom: 1px dotted #e7e7e7;
+  line-height: 28px;
+}
+body .col-main .mainrg .info-main .attr dl {
+  width: 620px;
+}
+body .col-main .mainrg .info-main .attr dl dt {
+  color: #666;
+  font-size: 12px;
+  width: 76px;
+  float: left;
+}
+body .col-main .mainrg .info-main .attr dl dd {
+  display: block;
+  margin-left: 76px;
+}
+body .col-main .mainrg .info-main .attr .price-d dd b {
+  font-weight: 400;
+  font-size: 13px;
+  text-decoration: line-through;
+}
+body .col-main .mainrg .info-main .attr .price-w dd b {
+  font-weight: 700;
+  color: #e4393d;
+  font-size: 24px;
+}
+body .col-main .mainrg .info-main .attr .express dd select {
+  border: 0;
+  width: 122px;
+  height: 22px;
+  font-size: 10px;
+}
+body .col-main .mainrg .info-main .attr .express dd .yh {
+  margin-left: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #666;
+}
+body .col-main .mainrg .info-main .attr .express dd span {
+  color: #666;
+  font-size: 12px;
+}
+body .col-main .mainrg .info-main .attr .express dd span b {
+  font-size: 12px;
+  color: red;
+}
+body .col-main .mainrg .info-main .attr .express dd a {
+  color: #1a66b3;
+  margin-left: 30px;
+  font-size: 12px;
+  text-decoration: none;
+}
+body .col-main .mainrg .info-main .attr .author dd {
+  font-size: 12px;
+  color: #666;
+}
+body .col-main .mainrg .info-main .attr .author dd a {
+  color: #1D66B2;
+  text-decoration: none;
+}
+body .col-main .mainrg .info-main .attr .class dd a {
+  color: #1a66b3;
+  font-size: 12px;
+  text-decoration: none;
+}
+body .col-main .mainrg .info-main .attr .sale dd span {
+  font-weight: 700;
+  color: #e4393d;
+  font-size: 12px;
+}
+body .col-main .mainrg .info-main .purchase {
+  width: 620px;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+}
+body .col-main .mainrg .info-main .purchase .buy-num {
+  font-size: 12px;
+}
+body .col-main .mainrg .info-main .purchase .buy-num dt {
+  color: #666;
+  width: 76px;
+  float: left;
   line-height: 20px;
 }
-body .wx-content .colrg img {
+body .col-main .mainrg .info-main .purchase .buy-num dd span a {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  border: 1px solid #d5d5d5;
+  line-height: 13px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+}
+body .col-main .mainrg .info-main .purchase .buy-num dd span input {
+  width: 34px;
+  height: 20px;
+  line-height: 20px;
+  margin: 0 3px;
+  text-align: center;
+  border: 1px solid #a0a0a0;
+  vertical-align: middle;
+  color: #343434;
+}
+body .col-main .mainrg .info-main .purchase .buy-active {
+  padding: 18px 0;
+}
+body .col-main .mainrg .info-main .purchase .buy-active dd a {
+  display: inline-block;
+  width: 172px;
+  height: 37px;
+  margin-right: 19px;
+  color: #fff;
+  font-size: 0;
+  vertical-align: middle;
+  background: url(https://static.winxuancdn.com/css/v2/images/common-btn.png?20170907) no-repeat;
+  background-position: 0 -38px;
+}
+body .col-main .mainrg .info-main .purchase .buy-sevice {
+  font-size: 12px;
+  line-height: 28px;
+}
+body .col-main .mainrg .info-main .purchase .buy-sevice dt {
+  color: #666;
+  width: 76px;
+  float: left;
+}
+body .col-main .mainrg .info-main .purchase .buy-sevice dd span {
   display: block;
-  width: 100%;
-  height: 56px;
-  margin: 2px 0;
+  color: #666;
+}
+body .col-main .mainrg .info-main .purchase .buy-sevice dd a {
+  margin: 0 11px;
+  color: #666;
+  text-decoration: none;
+}
+body .col-main .mainrg .info-main .purchase .buy-sevice dd:nth-of-type(2) {
+  margin-left: 64px;
+}
+body .col-main .mainbase {
+  width: 990px;
+  height: 190px;
+  float: left;
 }
 body .unit {
   width: 100%;
   height: 192px;
-  background: #f5f5f5;
+  background-color: white;
 }
 body .unit .main-service {
   height: 192px;
@@ -655,12 +825,12 @@ body .login_footer {
 }
 body .login_footer .content {
   padding-bottom: 25px;
-  background: #f5f5f5;
+  background-color: white;
 }
 body .login_footer .content .top {
   text-align: center;
   height: 110px;
-  background: #f5f5f5;
+  background-color: white;
   padding-top: 30px;
 }
 body .login_footer .content .top .center {
@@ -759,7 +929,7 @@ body .login_footer .content .top .center div:nth-of-type(4) div {
 body .login_footer .content .bottom {
   text-align: center;
   box-sizing: border-box;
-  background: #f5f5f5;
+  background-color: white;
 }
 body .login_footer .content .bottom .winshare {
   margin-bottom: 20px;
