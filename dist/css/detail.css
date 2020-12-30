@@ -548,14 +548,14 @@ body .col-main .mainrg .info-side {
   float: left;
   margin-right: 20px;
 }
-body .col-main .mainrg .info-side .small {
+body .col-main .mainrg .info-side .box .small {
   width: 350px;
 }
-body .col-main .mainrg .info-side .small img {
+body .col-main .mainrg .info-side .box .small img {
   width: 100%;
   min-height: 350px;
 }
-body .col-main .mainrg .info-side .small .mask {
+body .col-main .mainrg .info-side .box .small .mask {
   z-index: 3;
   position: absolute;
   top: 0;
@@ -571,7 +571,7 @@ body .col-main .mainrg .info-side .small .mask {
   cursor: move;
   display: none;
 }
-body .col-main .mainrg .info-side .big {
+body .col-main .mainrg .info-side .box .big {
   position: absolute;
   left: 352px;
   top: 0;
@@ -582,21 +582,21 @@ body .col-main .mainrg .info-side .big {
   overflow: hidden;
   display: none;
 }
-body .col-main .mainrg .info-side .big img {
+body .col-main .mainrg .info-side .box .big img {
   width: 600px;
   height: 600px;
   position: absolute;
   left: 0;
   top: 0;
 }
-body .col-main .mainrg .info-side .infolink {
+body .col-main .mainrg .info-side .box .infolink {
   width: 350px;
   height: 27px;
   margin-bottom: 10px;
   margin-top: 20px;
   background-color: white;
 }
-body .col-main .mainrg .info-side .infolink a {
+body .col-main .mainrg .info-side .box .infolink a {
   display: block;
   float: left;
   width: 106px;

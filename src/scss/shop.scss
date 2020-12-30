@@ -1,0 +1,44 @@
+@import "./reset";
+body{
+    
+    background: #f5f5f5;
+    .cart{
+        margin: 0 auto;
+        width: 1016px;
+        .header{
+            width: 1016px;
+            height: 48px;
+            background-color: yellow;
+            p{
+                float: right;
+                width: 80px;
+                color: #7e7e7e;
+                font-size: 18px;
+                line-height: 46px;
+                text-align: right;
+                cursor: pointer;
+            }
+        }
+        .progress{
+            width: 1016px;
+            height: 33px;
+            margin: 10px 0;
+            background: #ccc url(https://static.winxuancdn.com/css/v1/images/bread-buy.jpg) no-repeat 0 0;
+        }
+        .content{
+            width: 1016px;
+            height: 334px;
+            background-color: yellowgreen;
+            .empty{
+                // width: 1016px;
+                // height: 254px;
+                background:  url(https://static.winxuancdn.com/css/v1/images/emptycart.jpg) 250px 50px no-repeat;
+                border: 1px solid #d9d9d9;
+                padding: 90px 90px 90px 390px;
+                margin: 30px 0;
+                background-color: yellow;
+            }
+        }
+    }
+
+}
