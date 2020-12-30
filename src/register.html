@@ -25,20 +25,24 @@
             <div class="register-step">
                 <div class="regist-form">
                     <div class="input-1">
-                        <div class="input-laber">手机号注册:</div>
-                        <input type="text" placeholder="请输入注册手机号">
+                        <div class="input-laber">用户名注册:</div>
+                        <input type="text" placeholder="请输入用户名" id="username" name="username">
                     </div>
-                    <div class="input-2">
+                    <div class="input-1">
+                        <div class="input-laber">密码注册:</div>
+                        <input type="password" placeholder="请输入密码" id="password" name="password">
+                    </div>
+                    <!-- <div class="input-2">
                         <div class="input-laber">图形验证码:</div>
                         <input type="text" placeholder="请输入图形验证码">
                         <img src="https://passport.winxuan.com/front/check/code" alt="">
                         <a href="#">换一张</a>
-                    </div>
-                    <div class="input-3">
+                    </div> -->
+                    <!-- <div class="input-3">
                         <div class="input-laber">短信验证:</div>
                         <input type="text" placeholder="请输入短信验证码"> 
                         <button type="button">获取验证码</button>
-                    </div>
+                    </div> -->
                     <div class="input-4">
                              <label for="check"></label>
                             <input type="checkbox">我已阅读并同意
@@ -46,7 +50,7 @@
                     </div>
                     <div class="btn">
                         <div class="laber"></div>
-                        <button>下一步</button>
+                        <button id="RegisterBtn">立即注册</button>
                     </div>
                 </div>
             </div>
@@ -67,6 +71,7 @@
         </div>
     </div>
     <script src="./javascripts/jQuery.js"></script>
+    <script src="./libs/utils.js"></script>
     <script src="./javascripts/register.js"></script>
 </body>
 </html>

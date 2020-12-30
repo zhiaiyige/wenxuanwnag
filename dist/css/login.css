@@ -250,6 +250,7 @@ table {
   font-weight: 400;
   color: #fff;
   box-sizing: border-box;
+  outline: none;
 }
 .login-wrapper .center .login_box .reg_link {
   font-size: 14px;

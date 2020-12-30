@@ -542,20 +542,52 @@ body .col-main .mainrg {
   float: left;
 }
 body .col-main .mainrg .info-side {
+  position: relative;
   width: 350px;
   height: 496px;
   float: left;
   margin-right: 20px;
 }
 body .col-main .mainrg .info-side .small {
-  position: list;
+  width: 350px;
 }
 body .col-main .mainrg .info-side .small img {
-  min-width: 350px;
+  width: 100%;
   min-height: 350px;
 }
-body .col-main .mainrg .info-side .big {
+body .col-main .mainrg .info-side .small .mask {
+  z-index: 3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #aaa;
+  background: 50% top no-repeat #fede4f;
+  opacity: 0.5;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  filter: alpha(Opacity=50);
+  cursor: move;
   display: none;
+}
+body .col-main .mainrg .info-side .big {
+  position: absolute;
+  left: 352px;
+  top: 0;
+  width: 300px;
+  height: 300px;
+  display: block;
+  border: 1px solid #e4e4e4;
+  overflow: hidden;
+  display: none;
+}
+body .col-main .mainrg .info-side .big img {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 body .col-main .mainrg .info-side .infolink {
   width: 350px;
