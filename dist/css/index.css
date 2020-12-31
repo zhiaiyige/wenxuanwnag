@@ -395,16 +395,23 @@ body .swiper-container {
   text-align: center;
   position: relative;
 }
-body .swiper-container .swiper-list {
+body .swiper-container .bg {
+  width: 1210px;
+  height: 480px;
+  position: absolute;
+  z-index: 10000;
+  left: calc(50% - 605px);
+  margin: 0 auto;
+}
+body .swiper-container .bg .swiper-list {
   height: 480px;
   width: 208px;
   background: rgba(255, 253, 252, 0.9);
-  position: absolute;
-  left: 347px;
-  z-index: 2;
+  float: left;
+  z-index: 11;
   box-sizing: border-box;
 }
-body .swiper-container .swiper-list .list-mainmenu {
+body .swiper-container .bg .swiper-list .list-mainmenu {
   margin: auto 0;
   padding: 5px 6px;
   border: 2px solid rgba(255, 253, 252, 0);
@@ -414,7 +421,7 @@ body .swiper-container .swiper-list .list-mainmenu {
   height: 78px;
   box-sizing: border-box;
 }
-body .swiper-container .swiper-list .list-mainmenu .second_title {
+body .swiper-container .bg .swiper-list .list-mainmenu .second_title {
   height: 24px;
   line-height: 24px;
   overflow: hidden;
@@ -425,12 +432,12 @@ body .swiper-container .swiper-list .list-mainmenu .second_title {
   display: block;
   left: -65px;
 }
-body .swiper-container .swiper-list .list-mainmenu dd {
+body .swiper-container .bg .swiper-list .list-mainmenu dd {
   height: 20px;
   line-height: 20px;
   float: left;
 }
-body .swiper-container .swiper-list .list-mainmenu dd a {
+body .swiper-container .bg .swiper-list .list-mainmenu dd a {
   text-decoration: none;
   color: #666;
   display: inline-block;
@@ -438,29 +445,29 @@ body .swiper-container .swiper-list .list-mainmenu dd a {
   white-space: nowrap;
   font-size: 12px;
 }
-body .swiper-container .swiper-list .list-mainmenu dd b {
+body .swiper-container .bg .swiper-list .list-mainmenu dd b {
   width: 1px;
   height: 12px;
   margin: 0 8px;
   background: #d6d6d6;
   display: inline-block;
 }
-body .swiper-container .swiper-list dl:nth-of-type(4) {
+body .swiper-container .bg .swiper-list dl:nth-of-type(4) {
   height: 58px;
 }
-body .swiper-container .swiper-list dl:nth-of-type(5) {
+body .swiper-container .bg .swiper-list dl:nth-of-type(5) {
   height: 58px;
 }
-body .swiper-container .swiper-list dl:nth-of-type(5) dd b {
+body .swiper-container .bg .swiper-list dl:nth-of-type(5) dd b {
   margin: 0 6px;
 }
-body .swiper-container .swiper-list dl:nth-of-type(6) {
+body .swiper-container .bg .swiper-list dl:nth-of-type(6) {
   height: 58px;
 }
-body .swiper-container .swiper-list dl:nth-of-type(7) {
+body .swiper-container .bg .swiper-list dl:nth-of-type(7) {
   height: 38px;
 }
-body .swiper-container .swiper-list dl:nth-of-type(7) .second_tit {
+body .swiper-container .bg .swiper-list dl:nth-of-type(7) .second_tit {
   height: 24px;
   line-height: 24px;
   overflow: hidden;
@@ -471,7 +478,7 @@ body .swiper-container .swiper-list dl:nth-of-type(7) .second_tit {
   display: block;
   left: -45px;
 }
-body .swiper-container .swiper-list dl:nth-of-type(8) {
+body .swiper-container .bg .swiper-list dl:nth-of-type(8) {
   height: 38px;
 }
 body .mod {
