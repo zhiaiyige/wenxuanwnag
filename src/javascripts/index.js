@@ -27,7 +27,7 @@
     location.href ="./active.html"
   })
   $("#delu").click( function(){
-    console.log(1);
+    // console.log(1);
     location.href ="./login.html"  
   })
   $("#zhuce").click( function(){
@@ -195,9 +195,9 @@ $.ajax({
   datatype:"json"
 })
 .then(function(res){
-  console.log(res);
+  // console.log(res);
   var list = res; 
-  console.log(list);
+  // console.log(list);
   var html = list.map( function(item ){
     return  `<div class="bt-col" >
                    <img data-src="${item.image}" alt="">

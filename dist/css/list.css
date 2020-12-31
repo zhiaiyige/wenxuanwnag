@@ -563,8 +563,15 @@ body .wx-content .collf .cell-books .books .price .price-n {
 body .wx-content .collf .cell-books .books .price .price-o {
   color: #b5b2b3;
   text-decoration: line-through;
-  float: right;
+  float: left;
   font-size: 12px;
+}
+body .wx-content .collf .cell-books .books .price button {
+  float: right;
+  outline: none;
+  border: 0;
+  background-color: red;
+  color: white;
 }
 body .wx-content .colrg {
   width: 150px;

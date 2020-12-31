@@ -16,9 +16,120 @@
         </div>
         <div class="progress"></div>
         <div class="content">
-            <div class="empty"></div>
+            <div class="empty">
+                <div class="title">
+                    <p>您的购物车是空的，赶紧去<span>❤老客户回馈，积分换礼券，购书更实惠</span></p>
+                    <p>看看吧</p>
+                    <p>您也可以从我的收藏中取出商品</p>
+                </div>
+            </div>
+        </div>
+        <div class="button-wrap">
+            <a href="#" class="continue"></a>
+            <a href="#" class="balance"></a>
+        </div>
+        <div id="main">
+            <div class="container">
+                <div id="cart">
+                    <h1>购物车</h1>
+                    <form action="#" method="post">
+                        <table class="form">
+                            <thead>
+                                <tr>
+                                    <th width="8%">选择</th>
+                                    <th width="50%">商品</th>
+                                    <th width="13%">单价（元）</th>
+                                    <th width="15%">数量</th>
+                                    <th width="14%">金额（元）</th>
+                                </tr>
+                            </thead>
+                            <tbody id="cart-goods-list">
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" name="good-id" value="1">
+                                    </td>
+                                    <td class="goods">
+                                        <div class="goods-image">
+                                            <img src="https://img2.winxuancdn.com/8973/1201738973_0_3_800x800.jpg?1555319292194&imageMogr2/thumbnail/200x200">
+                                        </div>
+                                        <div class="goods-information">
+                                            <h3>老鼠娶新娘</h3>
+                                            <ul>
+                                                <li>全新</li>
+                                                <li>不支持7天无理由退货</li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span class="price">￥<em class="price-em">20.00</em></span>
+                                    </td>
+                                    <td>
+                                        <div class="combo">
+                                            <input type="button" name="minus" value="-" class="combo-minus">
+                                            <input type="text" name="count" value="1" class="combo-value">
+                                            <input type="button" name="plus" value="+" class="combo-plus">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <strong class="amount">￥<em class="amount-em">25.00</em></strong>
+                                    </td>
+                                </tr>
+                                <!-- <tr>
+                                    <td>
+                                        <input type="checkbox" name="good-id" value="2">
+                                    </td>
+                                    <td class="goods">
+                                        <div class="goods-image">
+                                            <img src="https://img2.winxuancdn.com/8973/1201738973_0_3_800x800.jpg?1555319292194&imageMogr2/thumbnail/200x200">
+                                        </div>
+                                        <div class="goods-information">
+                                            <h3>老鼠娶新娘</h3>
+                                            <ul>
+                                                <li>全新</li>
+                                                <li>不支持7天无理由退货</li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span class="price">￥<em class="price-em">598.00</em></span>
+                                    </td>
+                                    <td>
+                                        <div class="combo">
+                                            <input type="button" name="minus" value="-" class="combo-minus">
+                                            <input type="text" name="count" value="1" class="combo-value">
+                                            <input type="button" name="plus" value="+" class="combo-plus">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <strong class="amount">￥<em class="amount-em">598.00</em></strong>
+                                    </td>
+                                </tr> -->
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="2">
+                                        <label>
+                                            <input type="checkbox" name="all">
+                                            <span>全选</span>
+                                        </label>
+                                        <a href="#" id="cart-delete">删除</a>
+                                    </td>
+                                    <td colspan="3">
+                                        <span>合计：</span>
+                                        <strong id="total-amount">￥<em id="total-amount-em">0.00</em></strong>
+                                        <input type="submit" value="立即结算" id="settlement">
+                                    </td>
+                                </tr>
+                            </tfoot>
+    
+                        </table>
+                    </form>
+                </div>
+            </div>
         </div>
 
     </div>
+    <script src="./javascripts/jQuery.js"></script>
+    <script src="./javascripts/shop2.js"></script>
 </body>
 </html>

@@ -2,6 +2,7 @@
     {
           "courseId": 1,
           "image": "https://img1.winxuancdn.com/0324/1201430324_22_1.jpg?1515033522102&imageMogr2/thumbnail/200x200",
+          "bigimg": "https://img1.winxuancdn.com/0324/1201430324_22_1.jpg?1515033522102&imageMogr2/thumbnail/600x600",
           "name": "一条暖暖的围巾",
           "author":"(比)埃米尔·嘉多尔(Emile Jadoul) 文、图;胡小跃 译",
           "pricelf": "￥14.7",
@@ -11,6 +12,7 @@
     {
           "courseId": 2,
           "image": "https://img0.winxuancdn.com/3188/1200403188_22_1.jpg?1515043255629&imageMogr2/thumbnail/200x200",
+          "bigimg": "https://img0.winxuancdn.com/3188/1200403188_22_1.jpg?1515043255629&imageMogr2/thumbnail/600x600",
           "name": "愤怒的小鸟•愤怒的小鸟.白公主涂鸦书",
           "author":"(芬)贝尔奥",
           "pricelf": "￥13.7",
@@ -20,6 +22,7 @@
     {
           "courseId": 3,
           "image": "https://img3.winxuancdn.com/3204/1200403204_0_1_800x800.jpg?1515043287133&imageMogr2/thumbnail/200x200",
+          "bigimg": "https://img3.winxuancdn.com/3204/1200403204_0_1_800x800.jpg?1515043287133&imageMogr2/thumbnail/600x600",
           "name": "愤怒的小鸟•炸弹黑涂鸦书/愤怒的小鸟",
           "author":"(芬)海尔顿",
           "pricelf": "￥13.7",
@@ -29,6 +32,7 @@
     {
           "courseId": 4,
           "image": "https://img2.winxuancdn.com/7097/1200357097_22_1.jpg?1515043529790&imageMogr2/thumbnail/200x200",
+          "bigimg": "https://img2.winxuancdn.com/7097/1200357097_22_1.jpg?1515043529790&imageMogr2/thumbnail/600x600",
           "name": "南极熊益智游戏对对碰 动物篇",
           "author":"张秋林 编",
           "pricelf": "￥22.6",
@@ -38,6 +42,7 @@
     {
           "courseId": 5,
           "image": "https://img3.winxuancdn.com/7372/1200357372_22_1.jpg?1515043441278&imageMogr2/thumbnail/200x200",
+          "bigimg": "https://img3.winxuancdn.com/7372/1200357372_22_1.jpg?1515043441278&imageMogr2/thumbnail/600x600",
           "name": "水晶瓶塞的秘密(亚森？罗平探案全集少儿版)",
           "author":"(法)莫里斯？勒布朗",
           "pricelf": "￥13.7",
@@ -47,6 +52,7 @@
     {
           "courseId": 6,
           "image": "https://img0.winxuancdn.com/7390/1200357390_22_1.jpg?1515043449346&imageMogr2/thumbnail/200x200",
+          "bigimg": "https://img0.winxuancdn.com/7390/1200357390_22_1.jpg?1515043449346&imageMogr2/thumbnail/600x600",
           "name": "魔女的复仇(亚森？罗平探案全集少儿版)",
           "author":"(法)莫里斯？勒布朗",
           "pricelf": "￥13.7",
@@ -56,6 +62,7 @@
     {
           "courseId": 7,
           "image": "https://img3.winxuancdn.com/8756/1200358756_22_1.jpg?1515043563007&imageMogr2/thumbnail/200x200",
+          "bigimg": "https://img3.winxuancdn.com/8756/1200358756_22_1.jpg?1515043563007&imageMogr2/thumbnail/600x600",
           "name": "少年冒险侠系列•不死少女",
           "author":"超侠",
           "pricelf": "￥15.0",
@@ -65,6 +72,7 @@
     {
           "courseId": 8,
           "image": "https://img3.winxuancdn.com/3351/1200433351_22_1.jpg?1515043005190&imageMogr2/thumbnail/200x200",
+          "bigimg": "https://img3.winxuancdn.com/3351/1200433351_22_1.jpg?1515043005190&imageMogr2/thumbnail/600x600",
           "name": "益智开发早早教•动手贴贴 5岁",
           "author":"张耀明 编",
           "pricelf": "￥15.0",
@@ -74,6 +82,7 @@
     {
           "courseId": 9,
           "image": "https://img2.winxuancdn.com/6003/1200426003_22_1.jpg?1515043050304&imageMogr2/thumbnail/200x200",
+          "bigimg": "https://img2.winxuancdn.com/6003/1200426003_22_1.jpg?1515043050304&imageMogr2/thumbnail/600x600",
           "name": "360度幼小衔接•360度幼小衔接.拼音.2",
           "author":"周梦",
           "pricelf": "￥15.0",
@@ -83,6 +92,7 @@
     {
           "courseId": 10,
           "image": "https://img1.winxuancdn.com/9190/1202329190_49_0_original_800x800.jpg?1603940234680&imageMogr2/thumbnail/200x200",
+          "bigimg": "https://img1.winxuancdn.com/9190/1202329190_49_0_original_800x800.jpg?1603940234680&imageMogr2/thumbnail/600x600",
           "name": "格林童话 美绘注音版",
           "author":"(德)格林兄弟",
           "pricelf": "￥13.7",
@@ -92,6 +102,7 @@
     {
           "courseId": 11,
           "image": "https://img3.winxuancdn.com/9196/1202329196_49_0_original_800x800.jpg?1603941133570&imageMogr2/thumbnail/200x200",
+          "bigimg": "https://img3.winxuancdn.com/9196/1202329196_49_0_original_800x800.jpg?1603941133570&imageMogr2/thumbnail/600x600",
           "name": "课本里的大师•荷塘月色",
           "author":"朱自清",
           "pricelf": "￥18.2",
@@ -101,6 +112,7 @@
     {
           "courseId": 12,
           "image": "https://img3.winxuancdn.com/3179/1202203179_0_1_800x800.jpg?1585631648712&imageMogr2/thumbnail/200x200",
+          "bigimg": "https://img3.winxuancdn.com/3179/1202203179_0_1_800x800.jpg?1585631648712&imageMogr2/thumbnail/600x600",
           "name": "乐高节日创意",
           "author":"(比)埃米尔·嘉多尔(Emile Jadoul) 文、图;胡小跃 译",
           "pricelf": "￥13.7",
@@ -110,6 +122,7 @@
     {
           "courseId": 13,
           "image": "https://img0.winxuancdn.com/0951/1202250951_0_0_original_800x800.jpg?1591497028920&imageMogr2/thumbnail/200x200",
+          "bigimg": "https://img0.winxuancdn.com/0951/1202250951_0_0_original_800x800.jpg?1591497028920&imageMogr2/thumbnail/600x600",
           "name": "还是钟南山",
           "author":"魏东海",
           "pricelf": "￥43.2",
@@ -119,6 +132,7 @@
     {
           "courseId": 14,
           "image": "https://img0.winxuancdn.com/3916/1202203916_0_1_800x800.jpg?1587021841547&imageMogr2/thumbnail/200x200",
+          "bigimg": "https://img0.winxuancdn.com/3916/1202203916_0_1_800x800.jpg?1587021841547&imageMogr2/thumbnail/600x600",
           "name": "新太空竞赛 埃隆·马斯克,杰夫·贝索斯 从硅谷到火星的亿万商业争夺",
           "author":"(美)蒂姆·费恩霍尔茨(Tim Fernholz)",
           "pricelf": "￥46.0",
@@ -128,6 +142,7 @@
     {
           "courseId": 15,
           "image": "https://img2.winxuancdn.com/5885/1202245885_0_1_original_800x800.jpg?1591433480756&imageMogr2/thumbnail/200x200",
+          "bigimg": "https://img2.winxuancdn.com/5885/1202245885_0_1_original_800x800.jpg?1591433480756&imageMogr2/thumbnail/600x600",
           "name": "中华人民共和国民法典 附草案说明",
           "author":"挚爱一哥",
           "pricelf": "￥18.7",
@@ -137,6 +152,7 @@
     {
       "courseId": 16,
       "image": "https://img3.winxuancdn.com/3204/1200403204_0_1_800x800.jpg?1515043287133&imageMogr2/thumbnail/200x200",
+      "bigimg": "https://img3.winxuancdn.com/3204/1200403204_0_1_800x800.jpg?1515043287133&imageMogr2/thumbnail/600x600",
       "name": "愤怒的小鸟•炸弹黑涂鸦书/愤怒的小鸟",
       "author":"(芬)海尔顿",
       "pricelf": "￥13.7",
@@ -146,6 +162,7 @@
 {
       "courseId": 17,
       "image": "https://img2.winxuancdn.com/7097/1200357097_22_1.jpg?1515043529790&imageMogr2/thumbnail/200x200",
+      "bigimg": "https://img2.winxuancdn.com/7097/1200357097_22_1.jpg?1515043529790&imageMogr2/thumbnail/600x600",
       "name": "南极熊益智游戏对对碰 动物篇",
       "author":"张秋林 编",
       "pricelf": "￥22.6",
@@ -155,6 +172,7 @@
 {
       "courseId": 18,
       "image": "https://img3.winxuancdn.com/7372/1200357372_22_1.jpg?1515043441278&imageMogr2/thumbnail/200x200",
+      "bigimg": "https://img3.winxuancdn.com/7372/1200357372_22_1.jpg?1515043441278&imageMogr2/thumbnail/600x600",
       "name": "水晶瓶塞的秘密(亚森？罗平探案全集少儿版)",
       "author":"(法)莫里斯？勒布朗",
       "pricelf": "￥13.7",
@@ -164,6 +182,7 @@
 {
       "courseId": 19,
       "image": "https://img0.winxuancdn.com/7390/1200357390_22_1.jpg?1515043449346&imageMogr2/thumbnail/200x200",
+      "bigimg": "https://img0.winxuancdn.com/7390/1200357390_22_1.jpg?1515043449346&imageMogr2/thumbnail/600x600",
       "name": "魔女的复仇(亚森？罗平探案全集少儿版)",
       "author":"(法)莫里斯？勒布朗",
       "pricelf": "￥13.7",
@@ -173,6 +192,7 @@
 {
       "courseId": 20,
       "image": "https://img3.winxuancdn.com/8756/1200358756_22_1.jpg?1515043563007&imageMogr2/thumbnail/200x200",
+      "bigimg": "https://img3.winxuancdn.com/8756/1200358756_22_1.jpg?1515043563007&imageMogr2/thumbnail/600x600",
       "name": "少年冒险侠系列•不死少女",
       "author":"超侠",
       "pricelf": "￥15.0",
@@ -182,6 +202,7 @@
 {
       "courseId": 21,
       "image": "https://img3.winxuancdn.com/3351/1200433351_22_1.jpg?1515043005190&imageMogr2/thumbnail/200x200",
+      "bigimg": "https://img3.winxuancdn.com/3351/1200433351_22_1.jpg?1515043005190&imageMogr2/thumbnail/600x600",
       "name": "益智开发早早教•动手贴贴 5岁",
       "author":"张耀明 编",
       "pricelf": "￥15.0",
@@ -191,6 +212,7 @@
 {
       "courseId": 22,
       "image": "https://img2.winxuancdn.com/6003/1200426003_22_1.jpg?1515043050304&imageMogr2/thumbnail/200x200",
+      "bigimg": "https://img2.winxuancdn.com/6003/1200426003_22_1.jpg?1515043050304&imageMogr2/thumbnail/600x600",
       "name": "360度幼小衔接•360度幼小衔接.拼音.2",
       "author":"周梦",
       "pricelf": "￥15.0",
@@ -200,6 +222,7 @@
 {
       "courseId": 23,
       "image": "https://img1.winxuancdn.com/9190/1202329190_49_0_original_800x800.jpg?1603940234680&imageMogr2/thumbnail/200x200",
+      "bigimg": "https://img1.winxuancdn.com/9190/1202329190_49_0_original_800x800.jpg?1603940234680&imageMogr2/thumbnail/600x600",
       "name": "格林童话 美绘注音版",
       "author":"(德)格林兄弟",
       "pricelf": "￥13.7",
@@ -209,6 +232,7 @@
 {
       "courseId": 24,
       "image": "https://img3.winxuancdn.com/9196/1202329196_49_0_original_800x800.jpg?1603941133570&imageMogr2/thumbnail/200x200",
+      "bigimg": "https://img3.winxuancdn.com/9196/1202329196_49_0_original_800x800.jpg?1603941133570&imageMogr2/thumbnail/600x600",
       "name": "课本里的大师•荷塘月色",
       "author":"朱自清",
       "pricelf": "￥18.2",
@@ -218,6 +242,7 @@
 {
       "courseId": 25,
       "image": "https://img3.winxuancdn.com/3179/1202203179_0_1_800x800.jpg?1585631648712&imageMogr2/thumbnail/200x200",
+      "bigimg": "https://img3.winxuancdn.com/3179/1202203179_0_1_800x800.jpg?1585631648712&imageMogr2/thumbnail/600x600",
       "name": "乐高节日创意",
       "author":"(比)埃米尔·嘉多尔(Emile Jadoul) 文、图;胡小跃 译",
       "pricelf": "￥13.7",
@@ -227,6 +252,7 @@
 {
       "courseId": 26,
       "image": "https://img0.winxuancdn.com/0951/1202250951_0_0_original_800x800.jpg?1591497028920&imageMogr2/thumbnail/200x200",
+      "bigimg": "https://img0.winxuancdn.com/0951/1202250951_0_0_original_800x800.jpg?1591497028920&imageMogr2/thumbnail/600x600",
       "name": "还是钟南山",
       "author":"魏东海",
       "pricelf": "￥43.2",
@@ -236,6 +262,7 @@
 {
       "courseId": 27,
       "image": "https://img0.winxuancdn.com/3916/1202203916_0_1_800x800.jpg?1587021841547&imageMogr2/thumbnail/200x200",
+      "bigimg": "https://img0.winxuancdn.com/3916/1202203916_0_1_800x800.jpg?1587021841547&imageMogr2/thumbnail/600x600",
       "name": "新太空竞赛 埃隆·马斯克,杰夫·贝索斯 从硅谷到火星的亿万商业争夺",
       "author":"(美)蒂姆·费恩霍尔茨(Tim Fernholz)",
       "pricelf": "￥46.0",
@@ -245,6 +272,7 @@
 {
       "courseId": 28,
       "image": "https://img2.winxuancdn.com/5885/1202245885_0_1_original_800x800.jpg?1591433480756&imageMogr2/thumbnail/200x200",
+      "bigimg": "https://img2.winxuancdn.com/5885/1202245885_0_1_original_800x800.jpg?1591433480756&imageMogr2/thumbnail/600x600",
       "name": "中华人民共和国民法典 附草案说明",
       "author":"挚爱一哥",
       "pricelf": "￥18.7",
@@ -254,6 +282,7 @@
 {
       "courseId": 29,
       "image": "https://img1.winxuancdn.com/6170/1202126170_0_2_800x800.jpg?1607590286875&imageMogr2/thumbnail/200x200",
+      "bigimg": "https://img1.winxuancdn.com/6170/1202126170_0_2_800x800.jpg?1607590286875&imageMogr2/thumbnail/600x600",
       "name": "中华人民共和国民法典 附草案说明",
       "author":"挚爱一哥",
       "pricelf": "￥18.7",
@@ -263,6 +292,7 @@
 {
       "courseId": 30,
       "image": "https://img1.winxuancdn.com/6170/1202126170_0_2_800x800.jpg?1607590286875&imageMogr2/thumbnail/200x200",
+      "bigimg": "https://img1.winxuancdn.com/6170/1202126170_0_2_800x800.jpg?1607590286875&imageMogr2/thumbnail/600x600",
       "name": "中华人民共和国民法典 附草案说明",
       "author":"挚爱一哥",
       "pricelf": "￥18.7",

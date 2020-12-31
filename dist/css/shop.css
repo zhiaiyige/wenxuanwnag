@@ -67,7 +67,6 @@ body .cart {
 body .cart .header {
   width: 1016px;
   height: 48px;
-  background-color: yellow;
 }
 body .cart .header p {
   float: right;
@@ -87,12 +86,153 @@ body .cart .progress {
 body .cart .content {
   width: 1016px;
   height: 334px;
-  background-color: yellowgreen;
+  margin: 30px 0;
+  background-color: #f9f9f9;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  display: none;
 }
 body .cart .content .empty {
-  background: url(https://static.winxuancdn.com/css/v1/images/emptycart.jpg) 250px 50px no-repeat;
-  border: 1px solid #d9d9d9;
-  padding: 90px 90px 90px 390px;
-  margin: 30px 0;
-  background-color: yellow;
+  background: url(https://static.winxuancdn.com/css/v1/images/emptycart.jpg) 250px 30px no-repeat;
+  width: 990px;
+  height: 200px;
+  margin: 65px 10px;
+  float: left;
+  line-height: 200px;
+}
+body .cart .content .empty .title {
+  float: right;
+  margin-left: 400px;
+  margin-top: 65px;
+}
+body .cart .content .empty .title p {
+  width: 590px;
+  float: left;
+  height: 25px;
+  line-height: 20px;
+  color: #212529;
+  font-size: 15.6px;
+}
+body .cart .content .empty .title p span {
+  color: #06c;
+  font-size: 18.72px;
+}
+body .cart .button-wrap {
+  width: 1016px;
+  height: 80px;
+  display: none;
+}
+body .cart .button-wrap .continue {
+  float: left;
+  width: 142px;
+  height: 45px;
+  background-image: url(https://static.winxuancdn.com/css/v1/images/balance-button.jpg);
+  background-position: 0 -4px;
+}
+body .cart .button-wrap .balance {
+  width: 208px;
+  height: 45px;
+  float: right;
+  background-image: url(https://static.winxuancdn.com/css/v1/images/balance-button.jpg);
+  background-position: -142px -4px;
+}
+body .cart #main {
+  padding: 30px 0px;
+}
+body .cart #cart {
+  background: #FFFFFF;
+  padding: 40px;
+}
+body .cart #cart h1 {
+  line-height: 40px;
+  padding: 0px 0px 10px 0px;
+}
+body .cart table.form {
+  border-collapse: collapse;
+  empty-cells: show;
+  margin: 20px 0px;
+  padding: 0px;
+  table-layout: fixed;
+  width: 100%;
+}
+body .cart table.form th,
+body .cart table.form td {
+  border-bottom: 1px solid #DDDDDD;
+  padding: 15px 10px;
+  text-align: left;
+}
+body .cart table.form {
+  border-top: 3px solid #DDDDDD;
+}
+body .cart .goods .goods-image img {
+  border: 1px solid #DDDDDD;
+  float: left;
+  height: 100px;
+  margin: 0px 20px 0px 0px;
+}
+body .cart .goods .goods-information {
+  float: left;
+}
+body .cart .goods .goods-information ul {
+  color: #666666;
+  font-size: 12px;
+  line-height: 20px;
+  margin: 10px 0px 0px 0px;
+}
+body .cart .price,
+body .cart .amount,
+body .cart #total-amount {
+  color: #E00000;
+}
+body .cart #total-amount {
+  font-size: 22px;
+}
+body .cart .price em,
+body .cart .amount em,
+body .cart #total-amount em {
+  font-style: normal;
+}
+body .cart .combo .combo-minus,
+body .cart .combo .combo-value,
+body .cart .combo .combo-plus {
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  color: #333333;
+  float: left;
+  font-weight: bold;
+  margin: 0px;
+  outline: none;
+  text-align: center;
+}
+body .cart .combo .combo-minus,
+body .cart .combo .combo-plus {
+  font-size: 16px;
+  height: 26px;
+  line-height: 26px;
+  padding: 0px;
+  width: 24px;
+}
+body .cart .combo .combo-value {
+  border-left: none;
+  border-right: none;
+  height: 20px;
+  line-height: 20px;
+  padding: 2px;
+  width: 40px;
+}
+body .cart #cart-delete {
+  margin-left: 20px;
+}
+body .cart #settlement {
+  background: #E00000;
+  border: none;
+  color: #FFFFFF;
+  float: right;
+  font-size: 16px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0px;
+  outline: none;
+  padding: 0px;
+  width: 160px;
 }
