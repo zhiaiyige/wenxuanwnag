@@ -53,7 +53,7 @@ $(function(){
          
         var inputs=document.getElementsByName("good-id");
         var all=document.getElementsByName("all")[0];
-         
+        
         all.onclick=function(){
         for(var i=0;i<inputs.length;i++){
         inputs[i].checked=this.checked;
@@ -177,8 +177,21 @@ $(function(){
        })
 
 
-       $("#settlement").on("click",function(){
-           alert("没有此功能")
+       $("#settlement").on("click",function(e){
+        if(e.preventDefault){
+            e.preventDefault();
+            }else{
+            window.event.returnValue == false;
+            }
+           $(".task").css({
+               display:"block",
+           })
+
+       })
+       $(".gbtn").on("click",function(){
+        $(".task").css({
+            display:"none",
+        })
        })
 });
 
