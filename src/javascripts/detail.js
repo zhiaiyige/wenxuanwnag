@@ -33,7 +33,30 @@ $.ajax({
    
       $(".box").html(
             
-            `<div class="info-side">
+        //     `<div class="info-side">
+        //     <!-- 小图部分 -->
+        //     <div class="box clear">
+        //         <div class="small">
+        //             <div class="mask"></div>
+        //             <img src="${item.image}" alt="">
+        //         </div>
+        //         <div class="big">
+        //             <img src="${item.bigimg}" alt="">
+        //         </div>
+        //         <div class="infolink">
+        //             <a href="javascript:void(0);"></a>
+        //         </div>
+        //     </div>
+          
+        //     <div class="fx">
+        //         <span> 分享到： 7</span>
+        //         <a href="javascript:void(0);" type="btn">加入收藏</a>
+        //     </div>
+        // </div>`
+
+
+        `<div class="mainrg">
+        <div class="info-side">
             <!-- 小图部分 -->
             <div class="box clear">
                 <div class="small">
@@ -52,7 +75,84 @@ $.ajax({
                 <span> 分享到： 7</span>
                 <a href="javascript:void(0);" type="btn">加入收藏</a>
             </div>
-        </div>`
+        </div>
+        <div class="info-main">
+            <div class="name">
+                <h1>${item.name}</h1>
+                <h3>企业采购书卡&书目服务电话（微信同号）178-8231-4046（法定工作日9:00-17:00）</h3>
+            </div>
+            <div class="attr">
+                <dl class="price-d">
+                    <dt>定价:</dt>
+                    <dd><b>${item.pricelf}</b></dd>
+                </dl>
+                <dl class="price-w">
+                    <dt>文轩价:</dt>
+                    <dd><b>${item.pricerg}</b></dd>
+                </dl>
+                <dl class="express">
+                    <dt>配送至:</dt>
+                    <dd>
+                        <select id="group" value="1">
+                            <option value="1">中国唐山市玉田县</option>
+                            <option value="2">中国北京市昌平区</option>
+                        </select>
+                        <span class="yh">现在有货</span>
+                    </dd>
+                    <dd>
+                        <span>
+                            文轩网
+                            <b>正版图书音像</b>
+                            ，为您快捷发货
+                        </span>
+                        <a href="javascript:void(0);">（配送详情）</a>
+                    </dd>
+                </dl>
+                <dl class="author">
+                    <dt>作者:</dt>
+                    <dd>古希腊<a href="javascript:void(0);">伊索</a>等</dd>
+                </dl>
+                <dl class="class">
+                    <dt>所属分类:</dt>
+                    <dd>
+                        <a href="javascript:void(0);">图书</a>>
+                        <a href="javascript:void(0);">童书、育儿</a>>
+                        <a href="javascript:void(0);">0-6岁</a>>
+                        <a href="javascript:void(0);">幼儿绘本</a>
+                    </dd>
+                </dl>
+                <dl class="sale">
+                    <dt>促销活动:</dt>
+                    <dd><span>❤图书音像单笔满99减10,199减25！(0.65折内图书、电子书除外）</span></dd>
+                </dl>
+            </div>
+            <div class="purchase">
+                <dl class="buy-num">
+                    <dt>购买数量:</dt>
+                    <dd>
+                        <span>
+                        <a href="#">-</a>
+                        <input type="text" value="1">
+                        <a href="#">+</a>件
+                        </span>
+                    </dd>
+                </dl>
+                <dl class="buy-active">
+                    <dd><a href="#">加入购物车</a></dd>
+                </dl>
+                <dl class="buy-sevice">
+                    <dt>服务</dt>
+                    <dd><span>由"文轩网"直接销售和发货，并提供售后服务</span></dd>
+                    <dd>
+                        <a href="#">正品低价</a>|
+                        <a href="#">闪电发货</a>|
+                        <a href="#">货到付款</a>|
+                        <a href="#">高效退换货</a>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>`
             );
             function Magnifier(){
                 this.small_ele = $(".small");
